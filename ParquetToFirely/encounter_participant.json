@@ -1,0 +1,89 @@
+{
+  "description": "Encounter participant type code flat vw",
+  "resource": "Encounter",
+  "resourceType": "ViewDefinition",
+  "name": "Encounter_participant_type_vw",
+  "title": "Encounter_participant_type_vw",
+  "status": "draft",
+  "select": [
+    {
+      "column": [
+        {
+          "name": "encounter_id",
+          "path": "getResourceKey()",
+          "type": "string"
+        }
+      ],
+      "select": [
+        {
+          "forEachOrNull": "participant",
+          "column": [
+            {
+              "name": "participant_index",
+              "path": "$index",
+              "type": "integer"
+            }
+          ],
+          "select": [
+            {
+              "select": [
+                {
+                  "forEachOrNull": "type",
+                  "column": [
+                    {
+                      "name": "index",
+                      "path": "$index",
+                      "type": "integer"
+                    },
+                    {
+                      "name": "text",
+                      "path": "text",
+                      "type": "string"
+                    }
+                  ],
+                  "select": [
+                    {
+                      "forEachOrNull": "coding",
+                      "column": [
+                        {
+                          "name": "coding_index",
+                          "path": "$index",
+                          "type": "integer"
+                        },
+                        {
+                          "name": "system",
+                          "path": "system",
+                          "type": "uri"
+                        },
+                        {
+                          "name": "version",
+                          "path": "version",
+                          "type": "string"
+                        },
+                        {
+                          "name": "code",
+                          "path": "code",
+                          "type": "code"
+                        },
+                        {
+                          "name": "display",
+                          "path": "display",
+                          "type": "string"
+                        },
+                        {
+                          "name": "userselected",
+                          "path": "userSelected",
+                          "type": "boolean"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

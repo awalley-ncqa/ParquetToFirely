@@ -1,0 +1,5 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="C:\Users\awalley\Code\ParquetToFirely\ParquetToFirely\bin\Release\net8.0\9c397df1-3126-411d-bc36-28c38cf67761\obj\Release\net8.0/" /p:OutDir="C:\Users\awalley\Code\ParquetToFirely\ParquetToFirely\bin\Release\net8.0\9c397df1-3126-411d-bc36-28c38cf67761\bin\Release\net8.0/" /p:OutputPath="C:\Users\awalley\Code\ParquetToFirely\ParquetToFirely\bin\Release\net8.0\9c397df1-3126-411d-bc36-28c38cf67761\bin\Release\net8.0/" in C:\Users\awalley\Code\ParquetToFirely\ParquetToFirely\bin\Release\net8.0\9c397df1-3126-411d-bc36-28c38cf67761

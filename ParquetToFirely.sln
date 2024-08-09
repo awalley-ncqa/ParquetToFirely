@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParquetToFirely", "ParquetToFirely\ParquetToFirely.csproj", "{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F45B050-CF6B-4C50-B524-FE05CDCABC66}
+	EndGlobalSection
+EndGlobal

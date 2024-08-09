@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\awalley\\Code\\ParquetToFirely\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|c:\\users\\awalley\\code\\parquettofirely\\parquettofirely\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|solutionrelative:parquettofirely\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|c:\\users\\awalley\\code\\parquettofirely\\parquettofirely\\benchmarkclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|solutionrelative:parquettofirely\\benchmarkclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|c:\\users\\awalley\\code\\parquettofirely\\parquettofirely\\objectsfromparquet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|solutionrelative:parquettofirely\\objectsfromparquet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|c:\\users\\awalley\\code\\parquettofirely\\parquettofirely\\parquetfromviewdefinition\\parquetfromviewdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|solutionrelative:parquettofirely\\parquetfromviewdefinition\\parquetfromviewdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\986e9fd77048e536d79b0276e7c32f6153b308bc82d988e99e5e31073eb146b6\\List.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|c:\\users\\awalley\\code\\parquettofirely\\parquettofirely\\parquetreaders\\parquetreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|solutionrelative:parquettofirely\\parquetreaders\\parquetreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|c:\\users\\awalley\\code\\parquettofirely\\parquettofirely\\parquetreaders\\nativeparquetreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|solutionrelative:parquettofirely\\parquetreaders\\nativeparquetreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|c:\\users\\awalley\\code\\parquettofirely\\parquettofirely\\encounter_definition.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|solutionrelative:parquettofirely\\encounter_definition.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|c:\\users\\awalley\\code\\parquettofirely\\parquettofirely\\globalprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7E2D4F-DDFB-40D6-A26C-CDDA32FC2666}|ParquetToFirely\\ParquetToFirely.csproj|solutionrelative:parquettofirely\\globalprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\0916b40b3817d6a342d881254c45f16face8e8a925c4f7e1e6ac776191589017\\StreamReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\b3ab4fb85b206f2413edb729cada949a41704b6f8655f0c544f8427c6a3a5c21\\Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1977,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:323948898:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 280,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\Program.cs",
+              "RelativeDocumentMoniker": "ParquetToFirely\\Program.cs",
+              "ToolTip": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\Program.cs",
+              "RelativeToolTip": "ParquetToFirely\\Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAiwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T14:06:51.831Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NativeParquetReader.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\ParquetReaders\\NativeParquetReader.cs",
+              "RelativeDocumentMoniker": "ParquetToFirely\\ParquetReaders\\NativeParquetReader.cs",
+              "ToolTip": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\ParquetReaders\\NativeParquetReader.cs",
+              "RelativeToolTip": "ParquetToFirely\\ParquetReaders\\NativeParquetReader.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAiwIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T17:34:39.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ParquetReader.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\ParquetReaders\\ParquetReader.cs",
+              "RelativeDocumentMoniker": "ParquetToFirely\\ParquetReaders\\ParquetReader.cs",
+              "ToolTip": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\ParquetReaders\\ParquetReader.cs",
+              "RelativeToolTip": "ParquetToFirely\\ParquetReaders\\ParquetReader.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAYwDAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T16:59:24.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BenchmarkClass.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\BenchmarkClass.cs",
+              "RelativeDocumentMoniker": "ParquetToFirely\\BenchmarkClass.cs",
+              "ToolTip": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\BenchmarkClass.cs",
+              "RelativeToolTip": "ParquetToFirely\\BenchmarkClass.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAADwv7IAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T16:00:21.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ParquetFromViewDefinition.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\ParquetFromViewDefinition\\ParquetFromViewDefinition.cs",
+              "RelativeDocumentMoniker": "ParquetToFirely\\ParquetFromViewDefinition\\ParquetFromViewDefinition.cs",
+              "ToolTip": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\ParquetFromViewDefinition\\ParquetFromViewDefinition.cs",
+              "RelativeToolTip": "ParquetToFirely\\ParquetFromViewDefinition\\ParquetFromViewDefinition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:17:19.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "encounter_definition.json",
+              "DocumentMoniker": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\encounter_definition.json",
+              "RelativeDocumentMoniker": "ParquetToFirely\\encounter_definition.json",
+              "ToolTip": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\encounter_definition.json",
+              "RelativeToolTip": "ParquetToFirely\\encounter_definition.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAEQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-09T16:30:22.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObjectsFromParquet.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\ObjectsFromParquet.cs",
+              "RelativeDocumentMoniker": "ParquetToFirely\\ObjectsFromParquet.cs",
+              "ToolTip": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\ObjectsFromParquet.cs",
+              "RelativeToolTip": "ParquetToFirely\\ObjectsFromParquet.cs",
+              "ViewState": "AQIAABABAAAAAAAAAAAiwCoBAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:18:17.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "List.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\986e9fd77048e536d79b0276e7c32f6153b308bc82d988e99e5e31073eb146b6\\List.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\986e9fd77048e536d79b0276e7c32f6153b308bc82d988e99e5e31073eb146b6\\List.cs",
+              "ToolTip": "C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\986e9fd77048e536d79b0276e7c32f6153b308bc82d988e99e5e31073eb146b6\\List.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\986e9fd77048e536d79b0276e7c32f6153b308bc82d988e99e5e31073eb146b6\\List.cs [Read Only]",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAWwIwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T19:34:34.011Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GlobalProfiler.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\GlobalProfiler.cs",
+              "RelativeDocumentMoniker": "ParquetToFirely\\GlobalProfiler.cs",
+              "ToolTip": "C:\\Users\\awalley\\Code\\ParquetToFirely\\ParquetToFirely\\GlobalProfiler.cs",
+              "RelativeToolTip": "ParquetToFirely\\GlobalProfiler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAswBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:53:50.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StreamReader.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\0916b40b3817d6a342d881254c45f16face8e8a925c4f7e1e6ac776191589017\\StreamReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0916b40b3817d6a342d881254c45f16face8e8a925c4f7e1e6ac776191589017\\StreamReader.cs",
+              "ToolTip": "C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\0916b40b3817d6a342d881254c45f16face8e8a925c4f7e1e6ac776191589017\\StreamReader.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0916b40b3817d6a342d881254c45f16face8e8a925c4f7e1e6ac776191589017\\StreamReader.cs",
+              "ViewState": "AQIAACQBAAAAAAAAAAAgwDcBAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:35:18.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExecutionContext.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs",
+              "ToolTip": "C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAwwL8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:53:38.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\b3ab4fb85b206f2413edb729cada949a41704b6f8655f0c544f8427c6a3a5c21\\Task.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b3ab4fb85b206f2413edb729cada949a41704b6f8655f0c544f8427c6a3a5c21\\Task.cs",
+              "ToolTip": "C:\\Users\\awalley\\AppData\\Local\\Temp\\.vsdbgsrc\\b3ab4fb85b206f2413edb729cada949a41704b6f8655f0c544f8427c6a3a5c21\\Task.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b3ab4fb85b206f2413edb729cada949a41704b6f8655f0c544f8427c6a3a5c21\\Task.cs",
+              "ViewState": "AQIAAHoIAAAAAAAAAAAwwJEIAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:53:43.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 115,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

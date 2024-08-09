@@ -1,0 +1,314 @@
+{
+  "description": "Encounter diagnosis use flat vw",
+  "resource": "Encounter",
+  "resourceType": "ViewDefinition",
+  "name": "encounter_diagnosis_use_vw",
+  "title": "encounter_diagnosis_use_vw",
+  "status": "draft",
+  "select": [
+    {
+      "column": [
+        {
+          "name": "encounter_id",
+          "path": "getResourceKey()",
+          "type": "string"
+        }
+      ],
+      "select": [
+        {
+          "forEach": "diagnosis",
+          "column": [
+            {
+              "name": "diagnosis_index",
+              "path": "$index",
+              "type": "integer"
+            },
+            {
+              "name": "text",
+              "path": "use.text",
+              "type": "string"
+            }
+          ],
+          "select": [
+            {
+              "forEach": "use.coding",
+              "column": [
+                {
+                  "name": "index",
+                  "path": "$index",
+                  "type": "integer"
+                },
+                {
+                  "name": "system",
+                  "path": "system",
+                  "type": "uri"
+                },
+                {
+                  "name": "version",
+                  "path": "version",
+                  "type": "string"
+                },
+                {
+                  "name": "code",
+                  "path": "code",
+                  "type": "code"
+                },
+                {
+                  "name": "display",
+                  "path": "display",
+                  "type": "string"
+                },
+                {
+                  "name": "userselected",
+                  "path": "userSelected",
+                  "type": "boolean"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+-----------------------------
+{
+  "description": "Encounter diagnosis flat vw",
+  "resource": "Encounter",
+  "resourceType": "ViewDefinition",
+  "name": "encounter_diagnosis_vw",
+  "title": "encounter_diagnosis_vw",
+  "status": "draft",
+  "select": [
+    {
+      "column": [
+        {
+          "name": "encounter_id",
+          "path": "getResourceKey()",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "forEach": "diagnosis",
+      "column": [
+        {
+          "name": "diagnosis_index",
+          "path": "$index",
+          "type": "integer"
+        },
+        {
+          "name": "condition_id",
+          "path": "condition.getReferenceKey()",
+          "type": "string"
+        },
+        {
+          "name": "rank",
+          "path": "rank",
+          "type": "integer"
+        }
+      ]
+    }
+  ]
+}
+
+--------------------------------------
+
+{
+  "description": "Encounter participant type code flat vw",
+  "resource": "Encounter",
+  "resourceType": "ViewDefinition",
+  "name": "Encounter_participant_type_vw",
+  "title": "Encounter_participant_type_vw",
+  "status": "draft",
+  "select": [
+    {
+      "column": [
+        {
+          "name": "encounter_id",
+          "path": "getResourceKey()",
+          "type": "string"
+        }
+      ],
+      "select": [
+        {
+          "forEach": "participant",
+          "column": [
+            {
+              "name": "participant_index",
+              "path": "$index",
+              "type": "integer"
+            }
+          ],
+          "select": [
+            {
+              "select": [
+                {
+                  "forEach": "type",
+                  "column": [
+                    {
+                      "name": "index",
+                      "path": "$index",
+                      "type": "integer"
+                    },
+                    {
+                      "name": "text",
+                      "path": "text",
+                      "type": "string"
+                    }
+                  ],
+                  "select": [
+                    {
+                      "forEach": "coding",
+                      "column": [
+                        {
+                          "name": "coding_index",
+                          "path": "$index",
+                          "type": "integer"
+                        },
+                        {
+                          "name": "system",
+                          "path": "system",
+                          "type": "uri"
+                        },
+                        {
+                          "name": "version",
+                          "path": "version",
+                          "type": "string"
+                        },
+                        {
+                          "name": "code",
+                          "path": "code",
+                          "type": "code"
+                        },
+                        {
+                          "name": "display",
+                          "path": "display",
+                          "type": "string"
+                        },
+                        {
+                          "name": "userselected",
+                          "path": "userSelected",
+                          "type": "boolean"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+-------------------------------------------------
+{
+  "description": "Encounter participant flat vw",
+  "resource": "Encounter",
+  "resourceType": "ViewDefinition",
+  "name": "encounter_participant_vw",
+  "title": "encounter_participant_vw",
+  "status": "draft",
+  "select": [
+    {
+      "column": [
+        {
+          "name": "encounter_id",
+          "path": "getResourceKey()",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "forEach": "participant",
+      "column": [
+        {
+          "name": "index",
+          "path": "$index",
+          "type": "integer"
+        },
+        {
+          "name": "period_start",
+          "path": "period.start",
+          "type": "dateTime"
+        },
+        {
+          "name": "period_end",
+          "path": "period.end",
+          "type": "dateTime"
+        }
+      ]
+    }
+  ]
+}
+
+---------------------------
+
+{
+  "description": "Encounter flat vw",
+  "resource": "Encounter",
+  "resourceType": "ViewDefinition",
+  "name": "encounter_vw",
+  "title": "encounter_vw",
+  "status": "draft",
+  "select": [
+    {
+      "column": [
+        {
+          "name": "id",
+          "path": "getResourceKey()",
+          "type": "string"
+        },
+        {
+          "name": "patient_id",
+          "path": "subject.getReferenceKey(Patient)",
+          "type": "string"
+        },
+        {
+          "name": "status",
+          "path": "status",
+          "type": "code"
+        },
+        {
+          "name": "period_start",
+          "path": "period.start",
+          "type": "dateTime"
+        },
+        {
+          "name": "period_end",
+          "path": "period.end",
+          "type": "dateTime"
+        },
+        {
+          "name": "class_system",
+          "path": "class.system",
+          "type": "uri"
+        },
+        {
+          "name": "class_version",
+          "path": "class.version",
+          "type": "string"
+        },
+        {
+          "name": "class_code",
+          "path": "class.code",
+          "type": "code"
+        },
+        {
+          "name": "class_display",
+          "path": "class.display",
+          "type": "string"
+        },
+        {
+          "name": "class_userselected",
+          "path": "class.userSelected",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}

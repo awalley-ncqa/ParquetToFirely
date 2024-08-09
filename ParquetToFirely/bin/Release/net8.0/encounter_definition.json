@@ -1,0 +1,177 @@
+{
+  "resourceType": "ViewDefinition",
+  "resource": "Encounter",
+  "status": "active",
+  "select": [
+    {
+      "column": [
+        {
+          "name": "id",
+          "path": "getResourceKey()",
+          "type": "string"
+        },
+        {
+          "name": "patient_id",
+          "path": "subject.getReferenceKey(Patient)",
+          "type": "string"
+        },
+        {
+          "name": "period_start",
+          "path": "period.start",
+          "type": "dateTime"
+        },
+        {
+          "name": "period_end",
+          "path": "period.end",
+          "type": "dateTime"
+        },
+        {
+          "name": "status",
+          "path": "status",
+          "type": "string"
+        },
+        {
+          "name": "class_system",
+          "path": "class.system",
+          "type": "string"
+        },
+        {
+          "name": "class_code",
+          "path": "class.code",
+          "type": "string"
+        },
+        {
+          "name": "class_display",
+          "path": "class.display",
+          "type": "string"
+        },
+        {
+          "name": "subject_reference",
+          "path": "subject.reference",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "forEachOrNull": "meta",
+      "column": [
+        {
+          "name": "meta_index",
+          "path": "$index",
+          "type": "integer"
+        }
+      ],
+      "select": [
+        {
+          "forEachOrNull": "tag",
+          "column": [
+            {
+              "name": "meta_tag_index",
+              "path": "$index",
+              "type": "integer"
+            },
+            {
+              "name": "meta_system",
+              "path": "system",
+              "type": "string"
+            },
+            {
+              "name": "meta_code",
+              "path": "code",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "forEachOrNull": "profile",
+          "column": [
+            {
+              "name": "meta_profile_index",
+              "path": "$index",
+              "type": "integer"
+            },
+            {
+              "name": "profile",
+              "path": "$this",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "forEachOrNull": "extension",
+      "column": [
+        {
+          "name": "extension_index",
+          "path": "$index",
+          "type": "integer"
+        },
+        {
+          "name": "extension_id",
+          "path": "id",
+          "type": "string"
+        },
+        {
+          "name": "extension_url",
+          "path": "url",
+          "type": "string"
+        },
+        {
+          "name": "extension_string",
+          "path": "value.ofType(string)",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "forEachOrNull": "type",
+      "select": [
+        {
+          "column": [
+            {
+              "name": "type_index",
+              "path": "$index",
+              "type": "integer"
+            }
+          ]
+        },
+        {
+          "forEachOrNull": "coding",
+          "column": [
+            {
+              "name": "coding_index",
+              "path": "$index",
+              "type": "integer"
+            },
+            {
+              "name": "type_system",
+              "path": "system",
+              "type": "string"
+            },
+            {
+              "name": "type_code",
+              "path": "code",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "forEachOrNull": "participant",
+      "column": [
+        {
+          "name": "participant_index",
+          "path": "$index",
+          "type": "integer"
+        },
+        {
+          "name": "part_ref",
+          "path": "individual.reference",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
